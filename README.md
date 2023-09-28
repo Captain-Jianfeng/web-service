@@ -20,6 +20,13 @@ springboot + cxf
 
 ![img.png](img.png)
 3. 需注意时间类型转换
+4. 拿到WSDL地址之后，可以在线生成代码，也可以右键下载保存，离线生成代码
+```shell
+# 使用此命令，将XML文件编译为java类文件：
+wsimport -encoding utf-8 -keep -s E:\javacode -verbose -extension file:///E:\Service.wsdl
+#或者 
+wsimport -encoding utf-8 -keep -s E:\javacode -verbose -extension http://localhost:8080/webService/userWebService?wsdl
+```
 
 ### 博客连接
 

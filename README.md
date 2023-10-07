@@ -29,6 +29,6 @@ wsimport -encoding utf-8 -keep -s E:\javacode -verbose -extension file:///E:\Ser
 wsimport -encoding utf-8 -keep -s E:\javacode -verbose -extension http://localhost:8080/webService/userWebService?wsdl
 ```
 
-### 博客连接
+### [博客连接](https://www.yanshuwen.top/archives/SpringBoot%20%2B%20WebService%28cxf%29%20%E7%AE%80%E5%8D%95%E8%B0%83%E7%94%A8)
 
 
